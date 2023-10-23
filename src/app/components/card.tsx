@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 const Card = (props:any) =>{
     return(
-        <div className='shadow-md rounded-md flex content-center place-content-center p-2'>
+        <div className='shadow-md rounded-md flex content-center place-content-center p-2 hover:cursor-pointer hover:shadow-xl'>
             <Image
                 className='w-auto'
                 src={`${props.path}`}
