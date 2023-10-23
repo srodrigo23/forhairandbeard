@@ -9,13 +9,13 @@ const chunkeFont = localFont({
 })
   
 const Header = () =>{
-
     const label = "FOR HAIR & BEARD"
-
     return (
-        <div className={`{${chunkeFont.variable} bg-white shadow-md flex p-4`}>
-            <Logo/>
-            <p className={`font-chunke md:text-5xl sm:text-4xl whitespace-pre-line text-center`}>{label}</p>
+        <div className={`{${chunkeFont.variable} bg-white shadow-md p-2`}>
+            <div className="mt-auto flex content-center place-content-center">
+                <Logo/>
+            </div>
+            <p className={`font-chunke md:text-3xl sm:text-xl whitespace-pre-line text-center`}>{label}</p>
         </div>
     )
 }
